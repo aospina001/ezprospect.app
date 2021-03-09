@@ -7,8 +7,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "webpack-dev-server --config webpack.dev.js --port 3000",
-		"build": "webpack --config webpack.prod.js"
+		"start": "webpack-dev-server --config webpack.dev.js --host 0.0.0.0 --port 3000",
+		"build": "webpack --config webpack.prod.js",
+		"deploy": "node deploy-to-github.js"
 	},
 	"author": {
 		"name": "Alejandro Sanchez",
@@ -29,7 +30,7 @@
 		"@babel/cli": "^7.4.3",
 		"@babel/core": "^7.4.3",
 		"@babel/plugin-proposal-class-properties": "^7.4.0",
-		"@babel/plugin-transform-runtime": "^7.12.17",
+		"@babel/plugin-transform-runtime": "^7.10.5",
 		"@babel/preset-env": "^7.4.3",
 		"@babel/preset-react": "^7.0.0",
 		"babel-eslint": "^10.0.1",
@@ -56,7 +57,7 @@
 		"sass-loader": "^6.0.6",
 		"style-loader": "^0.19.0",
 		"webpack": "^4.42.0",
-		"webpack-cli": "^3.3.12",
+		"webpack-cli": "^3.3.0",
 		"webpack-dev-server": "^3.11.0",
 		"webpack-merge": "^4.2.1"
 	},
@@ -76,11 +77,33 @@
 		]
 	},
 	"dependencies": {
-		"bootstrap": "^4.3.1",
+		"@fortawesome/fontawesome-svg-core": "^1.2.32",
+		"@fortawesome/free-brands-svg-icons": "^5.15.1",
+		"@fortawesome/free-regular-svg-icons": "^5.15.1",
+		"@fortawesome/free-solid-svg-icons": "^5.15.1",
+		"@fortawesome/react-fontawesome": "^0.1.14",
+		"@react-google-maps/api": "^2.0.2",
+		"@react-icons/all-files": "^4.1.0",
+		"bootstrap": "^4.5.3",
+		"chart.js": "^2.9.4",
+		"date-fns": "^2.16.1",
+		"google-map-react": "^2.1.9",
+		"google-maps-react": "^2.0.6",
+		"jspdf": "^2.2.0",
+		"jspdf-autotable": "^3.5.13",
 		"prop-types": "^15.6.1",
 		"react": "^16.8.4",
+		"react-bootstrap": "^1.4.0",
+		"react-chartjs-2": "^2.11.1",
+		"react-charts": "^2.0.0-beta.7",
 		"react-dom": "^16.8.4",
+		"react-fontawesome": "^1.7.1",
+		"react-hook-form": "^6.11.0",
+		"react-hook-google-maps": "0.0.3",
+		"react-icons": "^4.1.0",
 		"react-polyfills": "0.0.1",
-		"react-router-dom": "^5.2.0"
+		"react-router-dom": "^5.2.0",
+		"react-to-pdf": "0.0.13",
+		"recharts": "^2.0.0"
 	}
 }

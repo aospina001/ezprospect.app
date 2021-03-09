@@ -1,3 +1,177 @@
-/* 
-    General Styles
-*/
+$base-color: #03989e;
+
+.flex {
+    display: flex;
+}
+
+.base-color{
+    background-color: $base-color;
+}
+
+.top-landing {
+    color: white;
+    background: rgba(3,152,158,.0) url('../../src/img/jumbotron-img.jpg') no-repeat center;
+    background-size: cover;
+    justify-content: center;
+}
+
+p.intro {
+    text-shadow: 2px 2px 5px black;
+}
+
+@media only screen and (min-width: 576px) {
+    .jumbotron {
+        padding: 6rem 2rem;
+    } 
+    .card {
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .card {
+        width: 100%;
+    } 
+}
+
+.feature {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.footer-links {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-social {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.fab {
+    margin: 0px 10px 0px 10px;
+}
+
+.carousel {
+    margin-top: 20px;
+    background-image: linear-gradient(to right, $base-color, white, $base-color);
+}
+
+.about-us-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.background{
+    white-space: pre-wrap;
+}
+
+#logo {
+    background: rgba(3,152,158,.1) url('../../src/img/logo.png') no-repeat center;
+    background-size: cover;
+}
+
+#adolfo {
+    background: rgba(3,152,158,.1) url('../../src/img/adolfo.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.about-us-left {
+    height: 300px;
+}
+
+.about-us-right {
+    height: 300px;
+    // background-image: linear-gradient(to right, white, $base-color);
+}
+
+// PROSPECT DETAILS
+.scroll {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 20rem;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    font-size: 12px;
+    border: solid 1px darkgray;
+    margin: 2rem 0;
+}
+
+// ACCOUNT TITLES
+.account-titles {
+    display: flex;
+    flex-flow: column nowrap;
+    font-weight: bold;
+    width: 15rem;
+    border: solid 1px lightgray;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: max-content;
+    > li {
+        text-decoration: none;
+        height: 1.5rem;
+        width: 100%;
+        padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    }
+}
+
+.statement-header {
+    background-color: $base-color;
+    color: white;
+}
+
+.sub-header {
+    font-size: 12px;
+    border-bottom: 5px;
+}
+
+.sub-account {
+    font-style: italic;
+}
+
+.sub-total {
+    border-bottom: 1px solid black;
+}
+
+.total {
+    border-bottom: double;
+}
+
+.financial-col {
+    list-style-type: none;
+    margin: 0;
+    > li {
+        text-decoration: none;
+        padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+        height: 1.5rem;
+    }
+}
+
+// FINANCIAL
+.financial {
+    width: 12rem;
+    height: max-content;
+    border: solid 1px lightgray;
+    padding: 0;
+    margin: 0;
+}
+
+.left {
+    padding: 0;
+    width: 9rem;
+}
+
+.right {
+    padding: 0;
+    width: 3rem;
+}
+
+.margin-item{
+    background-color: lightcyan;
+}
