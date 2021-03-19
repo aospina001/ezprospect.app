@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
-import { Home } from "./views/home";
+import { Home } from "./pages/home";
 import { Example } from "./component/myChart";
-import { BusinessDetails } from "./views/businessDetails";
-import { Prospects } from "./views/prospects";
+import { BusinessDetails } from "./pages/businessDetails";
+import { Prospects } from "./pages/prospects";
 import injectContext, { Context } from "./store/appContext";
-import { ProspectDetails } from "./views/prospectDetails";
-import { Landing } from "./views/landing";
+import { ProspectDetails } from "./pages/prospectDetails";
+import { Landing } from "./pages/landing";
 
 import { NavigationBar } from "./component/navbar";
 import { Footer } from "./component/footer";

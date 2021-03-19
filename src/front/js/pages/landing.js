@@ -7,11 +7,11 @@ import "../../styles/home.scss";
 import { Link, Redirect } from "react-router-dom";
 import { Context } from "../store/appContext";
 import { useForm } from "react-hook-form";
-import Featured1 from "../../img/featured1.png";
-import Featured2 from "../../img/featured2.png";
-import Featured3 from "../../img/featured3.png";
-import Featured4 from "../../img/featured4.png";
-import Adolfo from "../../img/adolfo.jpg";
+import Featured1 from "../../../front/img/featured1.png";
+import Featured2 from "../../../front/img/featured2.png";
+import Featured3 from "../../../front/img/featured3.png";
+import Featured4 from "../../../front/img/featured4.png";
+// import Adolfo from "../img/adolfo.jpg";
 
 export const Landing = () => {
 	const [show, setShow] = useState(false);

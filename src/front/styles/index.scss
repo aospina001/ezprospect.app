@@ -10,7 +10,7 @@ $base-color: #03989e;
 
 .top-landing {
     color: white;
-    background: rgba(3,152,158,.0) url('../../src/img/jumbotron-img.jpg') no-repeat center;
+    background: rgba(3,152,158,.0) url('../../../src/front/img/jumbotron-img.jpg') no-repeat center;
     background-size: cover;
     justify-content: center;
 }
@@ -72,14 +72,14 @@ p.intro {
 }
 
 #logo {
-    background: rgba(3,152,158,.1) url('../../src/img/logo.png') no-repeat center;
+    background: rgba(3,152,158,.1) url('../../../src/front/img/logo.png') no-repeat center;
     background-size: cover;
 }
 
-#adolfo {
-    background: rgba(3,152,158,.1) url('../../src/img/adolfo.jpg') no-repeat center;
-    background-size: cover;
-}
+// #adolfo {
+//     background: rgba(3,152,158,.1) url('../../../src/front/img/adolfo.jpg') no-repeat center;
+//     background-size: cover;
+// }
 
 .about-us-left {
     height: 300px;
